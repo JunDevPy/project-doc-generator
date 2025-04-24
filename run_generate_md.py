@@ -267,7 +267,7 @@ def generate_project_doc(root_path, output_file, ignore_dirs=None, ignore_exts=N
 
 def main():
     parser = argparse.ArgumentParser(description='Генератор документации проекта для анализа безопасности')
-    parser.add_argument('path', help='Путь к проекту для анализа')
+    parser.add_argument('-p', '--path', help='Путь к проекту для анализа')
     parser.add_argument('-o', '--output', default='project_analysis.md', help='Имя выходного файла')
     parser.add_argument('--ignore-dirs', nargs='+', help='Дополнительные директории для игнорирования')
     parser.add_argument('--ignore-exts', nargs='+', help='Дополнительные расширения для игнорирования')
