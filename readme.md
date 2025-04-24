@@ -27,13 +27,20 @@ cd project-doc-generator
 ```
 
 ### Рекомендуется использовать виртуальное окружение для Linux/macOS
+```bash
 python3 -m venv venv
-source venv/bin/activate  
+source venv/bin/activate
+```
 ### или для Windows
-venv\Scripts\activate  
+```cmd
+venv\Scripts\activate
+```
 
 ### Установка зависимостей
+```bash
 pip install -r requirements.txt
+```
+
 
 ## 🛠️ Использование
 
